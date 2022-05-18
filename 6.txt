@@ -1,0 +1,13 @@
+def fun1():
+    a=['A','R','o','h','A']
+    c=[]
+    d=[]
+    for i in a :
+        if i.isupper():
+            c.append(i)
+        elif i.islower():
+            d.append(i)
+    print(len(c))
+    print(len(d))
+
+fun1()

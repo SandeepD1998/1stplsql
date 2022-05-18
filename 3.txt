@@ -1,0 +1,8 @@
+#Write a Python program that accepts a string sequence of words as input and convert that space into hyphen and print sequence after sorting them alphabetically.
+def fun():
+    a=str(input("Enter the strings here:"))
+    c=a.replace(' ','-')
+    d=a.split()
+    d.sort()
+    print(a,'\n',c,'\n',d)
+fun()
